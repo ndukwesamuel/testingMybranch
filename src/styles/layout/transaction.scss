@@ -1,0 +1,182 @@
+.trans_topic{
+    text-align: center;
+    font-family: $font-khula;
+    font-size: 40px;
+    font-weight: 700;
+    color: $color-activegreen;
+    margin-top: 50px;
+}
+.transact_search{
+    display: flex;
+    background-color: white;
+    width: 420px;
+    padding: 5px;
+}
+.trans_input{
+    width: 400px;
+    outline: none;
+    border: none;
+    color: $color-tablegrey;
+    
+}
+.trans_search{
+    margin-top: 4px;
+    color: $color-tablegrey;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.trans_formsearch{
+    display: flex;
+    font-family: $font-khula;
+    justify-content: center;
+    margin-top: 20px;
+}
+.trans_but{
+    background-color: $color-activegreen;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.trans_track{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 100vh;
+    background-color: $color-transbody;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.tracker_marks{
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+.tracker_whole{
+    width: 100%;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+.tracker_quantity{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: $color-trackshipment;
+    font-family: $font-khula;
+
+    @media (max-width: 900px){
+        flex-direction: column;
+    }
+}
+.trans_seemore{
+    color:  #3E4462;
+    
+}
+.tracker_arrow{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    align-items: center;
+}
+.trans_innerquan{
+    margin-left: 30px;
+}
+.tracker_emptydiv{
+    background-color: $color-transbody;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tracker_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+    flex-direction: column;
+
+}
+.tracker_coloreddiv{
+    width: 9px;
+    height: 9px;
+    background-color: $color-activegreen;
+    border-radius: 50%;
+}
+.checked{
+    color: $color-activegreen;
+    font-size: 30px;
+}
+.track_movement{
+    font-family: $font-khula;
+    font-size: 13px;
+    margin-left: -105px;
+}
+.track_movement{
+    font-family: $font-khula;
+    font-size: 13px;
+    margin-left: -105px;
+}
+.track_movement2{
+    font-family: $font-khula;
+    font-size: 13px;
+    margin-left: -75px;
+}
+.tracker_check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tracker_check1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -15px;
+}
+.track_hor{
+    background-color: $color-activegreen;
+    width: 120px;
+    height: 3px;
+    margin-top: 12px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.track_flow{
+    display: flex;
+}
+.tracker_path{
+    display: flex;
+    margin-top: 10px;
+}
+.track_received{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: $font-khula;
+    font-size: 13px;
+    margin-top: 10px;
+
+    @media (max-width: 900px){
+        flex-direction: column;
+    }
+}
+.tracker_bolder{
+    font-weight: 600;
+}
+.tracker_itemsqty{
+    font-family: $font-khula;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+.track_lastpos{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}

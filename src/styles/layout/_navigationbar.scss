@@ -1,0 +1,202 @@
+@import '../abstract/function' ;
+
+
+
+.sidebartoggle{
+    width:250px;
+    // width: convertToRem(345);
+    height: 100vh;
+    position: fixed;
+     left: -100%;
+    z-index: 1000;
+    top: 0;
+    // min-height: 100vh;
+    box-shadow: 4px 0px 12px rgba(0, 20, 10, 0.12);
+    background-color: $color-white;
+    font-family: $font-khula;
+    transition: 850ms;
+
+
+    @media only screen and (min-width: 950px){
+        display: none;
+      }
+  
+    &__logo{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem 1rem 0rem 1rem;
+
+    }
+
+    &__logocontainer{
+        width: 100%;
+        padding: 0 0 0.5rem 0;
+        border-bottom: 1px solid $color-lightgrey;
+
+
+        img{
+            width: convertToRem(126.54);
+            padding-left: 2rem;
+        }
+    }
+       
+}
+
+.sidebartoggle.active{
+    left: 0;
+    transition: 350ms;
+}
+
+
+// active toggle side bar
+
+.sidebartoggle__sectionone, 
+.sidebartoggle__sectiontwo,
+.sidebartoggle__sectionthree,
+.sidebartoggle__sectionfour{
+    width: 100%;
+
+    .list-heading{
+        font-weight: 400;
+        font-size: convertToRem(14);
+        padding-left: 1rem;
+    }
+    ul{
+        cursor: pointer;
+
+        .sidebartoggle__listcover{
+            padding: convertToRem(10) 0 convertToRem(10) 0;
+            border-bottom: 1px solid $color-lightgrey;
+
+           }  
+        .sidebartoggle__item{
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            
+            a{
+               padding:convertToRem(9) 1rem;
+               color: $color-neutralgrey;
+               text-decoration: none;
+               width: 100%;
+            }
+
+            a:hover{
+                background-color: rgba(204, 224, 214, 0.38);
+            }
+
+          
+           
+           img{
+            width: 1.2rem;
+
+           }
+           }
+
+            .sidebartoggle__item--text{
+                    margin-left: 0.4rem;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    font-size: convertToRem($font-navitem);
+                    
+                }
+    }
+    
+}
+
+
+.navbar{
+    width:100%;
+    // width: convertToRem(345);
+    //  height: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    // min-height: 100vh;
+    box-shadow: 4px 0px 12px rgba(0, 20, 10, 0.12);
+    background-color: $color-white;
+    font-family: $font-khula;
+    
+    @media only screen and (max-width: 950px){
+      display: none;
+    }
+
+    &__logo{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem 1rem 0rem 1rem;
+
+    }
+
+    &__logocontainer{
+        width: 100%;
+        padding: 0 0 0.5rem 0;
+        border-bottom: 1px solid $color-lightgrey;
+
+
+        img{
+            width: convertToRem(126.54);
+            padding-left: 2rem;
+        }
+    }
+}
+
+
+.navbar__sectionone, 
+.navbar__sectiontwo,
+.navbar__sectionthree,
+.navbar__sectionfour{
+    width: 100%;
+
+    .list-heading{
+        font-weight: 400;
+        font-size: convertToRem(14);
+        padding-left: 1rem;
+    }
+    ul{
+        cursor: pointer;
+
+        .navbar__listcover{
+            padding: convertToRem(10) 0 convertToRem(10) 0;
+            border-bottom: 1px solid $color-lightgrey;
+
+           }  
+        .navbar__item{
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            
+            a{
+               padding:convertToRem(9) 1rem;
+               color: $color-neutralgrey;
+               text-decoration: none;
+               width: 100%;
+            //    &:hover{
+            //     background: rgba(204, 224, 214, 0.38);
+            //     border-left: 12px solid #FFE766;
+            //     color: $color-activegreen;
+            }
+
+            a.active{
+                background: rgba(204, 224, 214, 0.38);
+                    border-left: 12px solid #FFE766;
+                    color: $color-activegreen;
+            }
+           
+           img{
+            width: 1.2rem;
+
+           }
+           }
+
+            .navbar__item--text{
+                    margin-left: 0.4rem;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    font-size: convertToRem($font-navitem);
+                    
+                }
+    }
+    
+}

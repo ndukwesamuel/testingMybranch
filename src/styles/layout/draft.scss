@@ -1,0 +1,117 @@
+.draft_details{
+    background-color: white;
+    min-height: 100vh;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 25px 50px;
+    font-family: "khula", "san-serif";
+    margin-top: 20px;
+  }
+  .draft_details1{
+    background-color: white;
+    min-height: 100vh;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 40px 10px;
+    font-family: "khula", "san-serif";
+    margin-top: 20px;
+  }
+  .draftsaved{
+    font-size: 28px;
+    color: #305743;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .boughtitem{
+    background-color: $color-activegreen;
+    padding: 20px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .draft_top{
+    font-weight: 600;
+    font-size: $font-draft;
+    color: white;
+  }
+  .draft_top2{
+    font-size: 17px;
+    color: white;
+  }
+  .draft_items{
+    background-color: $color-background;
+    padding: 20px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .item_del{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: $font-draft;
+    color: $color-activegreen;
+  }
+  .item_name{
+    font-weight: 600;
+  }
+  .edit_del{
+    font-size: 23px;
+  }
+  .delete_draft{
+    margin-left: 10px;
+  }
+  .draft_list{
+    list-style-type: disc;
+    margin-left: 20px;
+    color: $color-draft;
+
+    @media(max-width: 500px){
+      font-size: 18px;
+    }
+  }
+  .accountofficer{
+    border-radius: 50%;
+
+    @media (max-width:500px){
+      width: 200px;
+      height: 200px;
+      
+    }
+  }
+  .accountdetails{
+    background-color: $color-account;
+    padding: 15px 40px;
+    display: flex;
+
+    @media (max-width:500px){
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .accountnames{
+    margin-left: 40px;
+  }
+  .accountfull{
+    color: $color-activegreen;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .accountmail{
+    display: flex;
+    margin-top: 20px;
+    margin-top: 10px;
+  }
+  .officermail{
+    color: $color-activegreen;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  .officer_email{
+    color: $color-neutralgrey;
+
+    @media (max-width:500px){
+      font-size: 18px;
+    }
+  }

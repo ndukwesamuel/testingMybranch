@@ -1,0 +1,421 @@
+// .plane{
+    
+    
+//     position: relative;
+// }
+.loginside1{
+    background-color: white;
+    position: absolute;
+    width: 910px;
+    z-index: 30;
+    height: 140vh;
+
+    @media(max-width: 900px){
+        min-height: 100vh;
+      }
+}
+.loginside{
+    background-color: white;
+    position: absolute;
+    width: 910px;
+    z-index: 30;
+    height: 100vh;
+
+    @media(max-width: 900px){
+        width: 100%;
+      }
+}
+.plane{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.plane1{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 140vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.whole{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.shiptonaijalogo{
+    margin-left: 129px;
+    margin-top: 10px;
+
+    @media(max-width: 900px){
+        margin-left: 100px;
+      margin-top: 20px;
+      }
+}
+.logininfo{
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 129px;
+
+    @media(max-width: 900px){
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 0;
+      }
+}
+.logininfo1{
+    width:75%;
+    margin-top: 0px;
+    margin-left: 12.5%;
+
+    @media (max-width: 900px){
+        width: 80%;
+        margin-left: 10%;
+      }
+}
+.loginword{
+    font-family: $font-khula;
+    color: #5F6160;
+    font-size: 30px;
+    margin-left: 28%;
+    font-weight: 600;
+
+    @media(max-width: 900px){
+        font-size: 35px;
+        margin-left: 0;
+        text-align: center;
+      }
+}
+
+.loginform{
+    @media(max-width: 900px){
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  }
+.cargo{
+    height: 100vh;
+    position: fixed;
+}
+.inputlogindet{
+    @media(max-width: 900px){
+      width: 80%;
+    }
+  }
+.cargo1{
+    height: 100vh;
+    position: fixed;
+
+    @media(max-width: 900px){
+        display: none;
+      }
+}
+.loginword1{
+    font-family: $font-khula;
+    color: #5F6160;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.loginemail{
+    color: #305743;
+    font-size: 16px;
+    font-family: $font-khula;
+    font-weight: 600;
+    margin-top: 20px;
+
+    @media(max-width: 900px){
+        font-size:20px;
+      }
+}
+.emailinput{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 450px;
+
+    @media(max-width: 900px){
+        font-size: 18px;
+        width: 100%;
+      }
+}
+.firstname{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 330px;
+
+    @media (max-width: 900px){
+        width: 100%;
+      }
+}
+.phone_no{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+
+    @media (max-width: 900px){
+        width: 100%;
+      }
+}
+.country_code{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 100px;
+}
+.no_input{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+
+    @media (max-width: 900px){
+        width: 80%;
+      }  
+}
+.rememberme{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 20px;
+
+    @media(max-width: 900px){
+        width: 80%;
+      }
+}
+.radio{
+    background-color: #305743;
+}
+.remember{
+    color: #305743;
+    font-family: $font-khula;
+    font-size: 18px;
+    outline: none;
+}
+.forgot{
+    color: #305743;
+    font-family: $font-khula;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.loginbut{
+    color: white;
+    border: none;
+    text-align: center;
+    padding:10px;
+    background-color: #488265;
+    border-radius: 5px;
+    font-family: $font-khula;
+    width: 450px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    @media(max-width: 900px){
+        width: 80%;
+      }
+}
+.loginbut1{
+    color: white;
+    border: none;
+    text-align: center;
+    padding:10px;
+    background-color: #488265;
+    border-radius: 5px;
+    font-family: $font-khula;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.notyet{
+    font-family: $font-khula;
+    font-size: 17px;
+}
+.socialmedia{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.socialmedia1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.horsocial{
+    width: 36px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin: 17.5px 10px;
+}
+.sociallogin{
+    width: 35px !important;
+    height: 35px !important;
+    margin: 0 5px;
+}
+.sociallogin1{
+    width: 35px !important;
+    height: 35px !important;
+    margin: 0 15px;
+}
+.or{
+    display: flex;
+    font-family: $font-khula;
+    justify-content: center;
+    margin-top: 10px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 900px){
+        flex-direction: column;
+      }
+}
+.reference{
+    width: 100%;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.ref_option{
+    font-family: $font-khula;
+}
+.rem_me{
+    margin-top: 10px;
+}
+.privacy{
+    color: #0468B2;
+    border: none;
+    background-color: white;
+}
+.agree{
+    color: #5F6160;
+    font-family: $font-khula;
+    font-size: 18px;
+    outline: none;
+}
+.membercolon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: $font-khula;
+    color: #5F6160;
+}
+.passwordhidden1{
+    display: flex;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+  }
+  .googlelogin{
+    border: 1px solid gray;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Khula", "san-serif";
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 230px;
+    margin-left: 80px;
+  
+    @media(max-width: 900px){
+      margin-left: 0;
+    }
+  }
+  .loginwithgoogle{
+    margin-top: 7px;
+  }
+  .divhidden{
+    width: 30px;
+  }
+  .hiddenpassword{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .passwordhidden{
+    display: flex;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    width: 450px;
+  
+    @media(max-width: 900px){
+      width: 100%;
+    }
+  }
+  .rememberme1{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+  
+    @media(max-width: 900px){
+      width: 80%;
+    }
+  }
+  .emailinput1{
+    width: 420px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+  
+    @media(max-width: 900px){
+      width: 90%;
+    }
+  }
+  .firstname1{
+    width: 300px;
+    border: none;
+  
+    @media (max-width: 900px){
+      width: 95%;
+      background-color: #F6F6F6;
+    }
+  }
+.links{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #488265;
+    font-weight: 600;
+}
+.modal{
+    background-color: white;
+    width: 470px;
+    padding: 10px;
+
+}
+.entiremodal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recaptha{
+    margin: 10px 0;
+}
+.modaltext{
+    font-family: $font-khula;
+    color: #5F6160;
+    font-size: 30px;
+    font-weight: 600;
+}

@@ -1,0 +1,119 @@
+@import ".././abstract/function";
+@import ".././abstract/variable";
+
+.topNav_img {
+    clip-path: circle();
+    width: convertToRem(38);
+}
+
+.top_arrow {
+    // hhh
+    width: convertToRem(16);
+    fill: $color-neutralgrey;
+    cursor: pointer;  
+}
+
+.topNav {
+    background-color: $color-white;
+    
+    position: sticky;
+    width: 100%;
+    font-family: $font-khula ;
+    top: 0;
+    box-sizing: border-box;
+    margin-bottom: convertToRem(18);
+    z-index: 1;
+
+    // toggle
+
+    .topnav__toggle{
+        display:none;
+        @media only screen and (max-width: 950px){
+            display: block;
+          }
+    }
+    // NAv COntent
+    .topNav_c-container {
+        padding-block: convertToRem(12);
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding-inline: convertToRem(32);
+
+        .topNav_search-container {
+            
+            background-color: $color-white;
+            max-width: convertToRem(388);
+            // padding-block: convertToRem(15);
+            // padding-inline: convertToRem(10);
+            border: 1px solid $color-activegreen;
+            padding-block: convertToRem(8);
+            padding-inline: convertToRem(20);
+            background-color: $color-input;
+            vertical-align: center;
+
+            button{
+                display: flex;
+            }
+         
+
+            #search-field{  
+                flex-grow: 1;
+                border: none;
+                background-color: $color-input;
+                
+                &:placeholder-shown{
+                    font-family: $font-khula ;
+                }
+                
+                &:focus-within {
+                    outline: none;
+                }
+            }
+            button{
+                margin-left: convertToRem(2);
+                border: none;
+                background-color: inherit;
+                height: 100%;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    max-width: 18px;
+                }
+            }
+
+        }
+
+        .topNav_new-container {
+            cursor: pointer;
+            margin-left: auto;
+            h3{
+                color: $color-neutralgrey;
+                font-weight: bold;
+            }
+        }
+
+        .topNav_acct-detail {
+            cursor: pointer;
+        
+            margin-left: auto;
+            margin-right: -#{convertToRem(40)};
+            .topNav_acct{
+                font-size: 24px;
+                font-weight: bold;
+                color: $color-neutralgrey;
+            }
+            .wb{
+                margin-top:convertToRem(-14);
+                color: $color-neutralgrey;
+            }
+        }
+
+        .topNav_profile {
+            margin-left: auto;
+            align-items: center;
+            gap: convertToRem(8);
+            cursor: pointer;
+        }
+    }
+}

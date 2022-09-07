@@ -1,0 +1,243 @@
+.pricing{
+    margin-left: 5px;
+    
+
+    &flex{
+        display: flex;
+    
+        .pricingholder{
+            width: 100%;
+        }
+
+    .return_but{
+        border: none;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+    &_details{
+        background-color: #197244;
+        width: 95%;
+        margin-left: 8px;
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    &calc{
+        color: white;
+        font-family: $font-khula;
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 30px;
+
+    }
+    &calc1{
+        color: white;
+        font-family: $font-khula;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 30px;
+
+    }
+    .detailsabout{
+        font-family: $font-khula;
+        margin-top: 20px;
+        color: white;
+    }
+    .pricing_img{
+        margin-top: 10px;
+        width: 43px;
+        height: 43px;
+    }
+    .details_sec{
+        background-color: $color-white;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+
+        @media(max-width: 900px){
+            margin-top: 10px;
+        }
+
+        &wel{
+            font-family: $font-khula;
+            color: $color-activegreen;
+            font-size: 18px;
+            font-weight: 600;
+            width: 220px;
+        }
+        &smaller{
+            font-size: 14px;
+            font-family: $font-khula;
+            color: $color-neutralgrey;
+            width: 220px;
+            margin-top: 5px;
+        }
+    }
+    .empty_sec{
+        border-radius: 50%;
+        background-color: #D9D9D9;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &emp{
+            background-color: $color-activegreen;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+    }
+    .allthree{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        
+    }
+    .weightshift{
+        margin-left: 5px;
+    }
+    .pricing_input{
+        display: flex;
+    flex-direction: column;
+        margin-top: 70px;
+        
+        
+        &fill{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @media (max-width:900px){
+            flex-direction: column;
+          }
+        }
+
+        .select_design{
+            display: flex;
+            flex-direction: column;
+
+            .country{
+                color: $color-white;
+                font-family: $font-khula;
+                font-size: 16px;
+                margin-bottom: 5px;
+
+
+                &_select{
+                    border: none;
+                    color: $color-activegreen;
+                    padding: 5px 20px;
+                    border-radius: 5px;
+                    width: 450px;
+                    outline: none;
+                    font-family: $font-khula;
+
+                    @media (max-width:900px){
+                        width: 100%;
+                      }
+                }
+            }
+            .country1{
+                color: $color-white;
+                font-family: $font-khula;
+                font-size: 16px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+        }
+
+    }
+}
+.price_row{
+    display: flex;
+    font-family: $font-khula;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+    &country1{
+        color: $color-white;
+        font-family: $font-khula;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    &input{
+        outline: none;
+        padding: 5px 20px;
+        width: 150px;
+        border-radius: 5px;
+        border: none;
+        color: $color-neutralgrey;
+    }
+}
+.country1{
+    color: $color-white;
+    font-family: $font-khula;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    
+}
+.country_select{
+    border: none;
+    color: $color-activegreen;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 450px;
+    outline: none;
+    font-family: $font-khula;
+
+    @media (max-width:900px){
+        width: 100%;
+      }
+}
+.pricing_button{
+    margin: 60px auto 30px;
+    width: 220px;
+    background-color: $color-richyellow;
+    border: none;
+    font-family: $font-khula;
+    color: $color-deepgreen;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.fa-plus{
+    margin-left: 5px;
+}
+.bottomfill{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:900px){
+        flex-direction: column;
+      }
+}
+.pricing_inputfill1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 20px;
+
+@media (max-width:900px){
+    flex-direction: column;
+  }
+}
+.country_select3{
+    border: none;
+    color: $color-activegreen;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 450px;
+    outline: none;
+    font-family: $font-khula;
+    margin-bottom: 20px;
+
+    @media (max-width:900px){
+        width: 100%;
+      }
+}

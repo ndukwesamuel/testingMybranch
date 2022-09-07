@@ -1,0 +1,199 @@
+.dashboard{
+    width: 100%;
+}
+
+.dashboard_welcome{
+    color: $color-neutralgrey;
+    font-family: $font-khula;
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.dashboard_hr{
+    background-color: $color-neutralgrey;
+    width: 90%;
+    margin-left: 5%;
+}
+.dashboard_tools{
+    font-family: $font-khula;
+    margin-top: 25px;
+    color: $color-neutralgrey;
+    font-size: 25px;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 600;
+}
+.dashboard_comp1{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+    .dashboard_pricing{
+    background-color: $color-white;
+    margin-top: 10px !important;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    box-shadow: 3px 5px #b1acac6c;
+    border-radius: 3px;
+
+
+    
+        .dashboard_check{
+        font-family: $font-khula;
+        color: $color-activegreen;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .dashboard_shopping{
+        font-family: $font-khula;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .dashboard_calc{
+        color: $color-activegreen;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
+}
+.dashboard_sec{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    flex-wrap: wrap;
+
+    
+
+    .dashboard_pricing1{
+        background-color: $color-white;
+        margin-top: 30px !important;
+        width: 200px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        box-shadow: 3px 5px #b1acac6c;
+        border-radius: 3px;
+
+        @media(max-width: 900px){
+            margin-top: 30px !important;
+        }
+
+    .dashboard_check{
+        font-family: $font-khula;
+        color: $color-activegreen;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .dashboard_calc{
+        color: $color-activegreen;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
+}
+.dashboard_sec2{
+    background-color: white;
+    margin: 50px 0 20px 0;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+.sec2_firstrow{
+    display:flex;
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 20px;
+    justify-content: space-between;
+
+    @media (max-width: 700px){
+        flex-direction: column;
+    }
+
+    .sec2_partone{
+        width: 550px;
+
+        .sec2_rowaddress{
+            color: $color-activegreen;
+            font-size: 18px;
+            font-family: $font-khula;
+            font-weight: 600;
+        }
+        .sec2_information{
+            font-family: $font-khula;
+
+            @media (max-width: 700px){
+                width: 90%;
+            }
+        }
+}
+}
+.sec2_rowaddress{
+    color: $color-activegreen;
+    font-size: 18px;
+    font-family: $font-khula;
+    font-weight: 600;
+}
+.sec2_select{
+    width: 400px;
+    border: none;
+    font-family: $font-khula;
+    padding: 5px 20px;
+    background-color: #F6F6F6;
+    outline: none;
+}
+.dashboard_fullname{
+    color: $color-activegreen;
+    font-size: 18px;
+    font-family: $font-khula;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.wholespace{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.fullname_input{
+    width: 100%;
+    border: none;
+    font-family: $font-khula;
+    padding: 5px 20px;
+    background-color: #F6F6F6;
+    outline: none;
+}
+.sec3_input{
+    width: 400px;
+    border: none;
+    font-family: $font-khula;
+    padding: 5px 20px;
+    background-color: #F6F6F6;
+    outline: none;
+
+    @media (max-width: 700px){
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.sec3{
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: space-between;
+
+    @media (max-width: 700px){
+        flex-direction: column;
+    }
+}
